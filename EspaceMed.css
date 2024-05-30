@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat' , sans-serif;
+}
+body{
+    background-color: rgb(255, 255, 255);
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:100vh;
+    
+}
+.menu{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    padding: 20px;
+    margin-left: 350px;
+    position: absolute;
+    top:40px;
+    left:300px;
+   
+     
+   
+  }
+  #itemH,#itemC,#itemI{
+    padding-right: 50px;
+    font-size: 21px;
+    background: linear-gradient(to top, rgb(199, 127, 127), rgb(49, 80, 216));
+           -webkit-background-clip : text;
+            color: transparent;
+            cursor: pointer;
+            
+  }
+.container{
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.35);
+   position: relative;
+   overflow: hidden;
+   width: 768px;
+   max-width: 100%;
+   min-height: 480px;
+   border: 2px solid;
+   border-style: outset;
+   margin-bottom: 75px;
+   
+ 
+   
+}
+#logo{
+    position: relative;
+   right:550px;
+   width: 170px;
+   top: 16px;
+}
+.container p{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    margin: 20px 0;
+
+}
+.container a{
+    color: rgb(107, 121, 245);
+    font-size: 13px;
+    text-decoration: none;
+    margin: 15px 0 10px;
+}
+#lienpmedecin{
+    color: rgb(0, 0, 0);
+    background-color: rgb(222, 161, 235);
+    padding: 7px 13px;
+    border-radius: 50px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    
+}
+#mtpsso:hover{
+    text-decoration: underline;
+    text-shadow: 5px 5px 5px 5px rgb(179, 179, 255);
+}
+
+.container button{
+ background: linear-gradient(45deg, rgb(207, 102, 211),rgb(114, 65, 204));
+  color: beige;
+  font-size: 12px;
+  padding: 10px 45px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-top: 25px;
+  cursor: pointer;
+  
+  
+
+
+}
+.container button:hover{
+    box-shadow: 3px 3px 9px 4px rgb(192, 157, 224);
+}
+
+.container form{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    height: 100%;
+    position: relative;
+  left: 350px;
+
+
+}
+.container input{
+    background-color: #eee;
+    border: none;
+    margin: 8px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+    margin-top: 20px;
+    padding: 12px;
+
+}
+.form-container{
+    position: absolute;
+    top:0;
+    height:100%;
+    width: 400px;
+    
+  
+}
+
+.container{
+   
+}
+#loginpatient{
+    position: relative;
+    width: 300px;
+    left:410px;
+    top:98px;
+}
+h1{
+    background: linear-gradient(to top, rgb(199, 127, 127), rgb(107, 49, 216));
+           -webkit-background-clip : text;
+            color: transparent;
+           padding-bottom: 25px;
+}
+#nrs{
+    position: relative;
+    width: 300px;
+    left:18px;
+    top:98px;
+}
+#itemI{
+    position: absolute;
+    left: 260px;
+    top: 5px;
+  }
+  .inscription {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+.inscription .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+  }
+  .insc-content {
+    display: none;
+    position: absolute;
+    left: 250px;
+    top: 48px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .insc-content a {
+  
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+
+  }
+  .insc-content a:hover{
+    background-color: rgb(170, 134, 204);
+  }
+  
+  
+  
+  /* Show the dropdown menu on hover */
+  .inscription:hover .insc-content {
+    display: block;
+  }

@@ -1,0 +1,119 @@
+#logo{
+    width: 200px;
+     
+     }
+     
+     .menu{
+       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       
+       padding: 20px;
+       margin-left: 350px;
+       position: absolute;
+       top:85px;
+       left:300px;
+      
+        
+      
+     }
+    #i1,#i2{
+       padding-right: 80px;
+       font-size: 21px;
+       background: linear-gradient(to top, rgb(199, 127, 127), rgb(49, 80, 216));
+               -webkit-background-clip:text;
+               color: transparent;
+               cursor: pointer;
+               
+              
+     }
+     #specialite{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 15px;
+     }
+
+
+     .pfcard {
+        border: 1px solid #ccc;
+        padding: 20px;
+        width: 300px;
+        margin: 20px auto;
+    }
+    .profile {
+        text-align: center;
+    }
+    .availability-list {
+        margin-top: 20px;
+        border: 2px solid;
+        margin-right: 900px;
+        position: relative;
+        left: 500px;
+       
+        padding-left: 50px;
+        margin-bottom: 0;
+        margin-top: 0px;
+
+    }
+    .availability-day {
+        margin-bottom: 10px;
+    }
+    .day {
+        font-weight: bold;
+    }
+    .time-available {
+        margin-left: 10px;
+        margin-top: 5px;
+        display: block;
+    }
+    .pfcard {
+        border: 1px solid #ccc;
+        padding: 36px;
+        border: 2px solid rgb(156, 15, 156);
+        border-radius: 20px;
+        position: relative;
+        right: 280px;
+        top: 30px;
+        padding-bottom: 52px;
+        
+    }
+    .profile {
+        text-align: center;
+    }
+    .availability-list {
+        margin-top: 0px;
+        padding: 36px;
+        border: 2px solid rgb(156, 15, 156);
+        border-radius: 20px;
+        margin-left: 13px;
+       position: relative;
+       bottom: 350px;
+       left: 650px;
+       
+      
+    }
+    .availability-day {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .day {
+        font-weight: bold;
+        min-width: 100px;
+    }
+    .time-available {
+        margin-left: 10px;
+        display: inline-block;
+    }
+    #profilepic{
+        border: 2px solid;
+        border-radius: 15px;
+    }
+    #btn{
+        position: relative;
+        bottom: 320px;
+        left: 825px;
+        padding:10px;
+        background-color: rgb(186, 137, 233);
+        border: 2px solid rgb(186, 137, 233);
+        border-style: outset;
+        border-radius: 10px;
+    }
+    

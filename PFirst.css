@@ -1,0 +1,145 @@
+#search {
+    width: 375px;
+    height: 50px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    border-radius: 15px;
+    padding-left: 8px;
+    margin-left: 200px;
+   
+    border: 2px solid rgba(45, 55, 190, 0.822);
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius:40px ;
+    position: absolute;
+    top:350px;
+    left:20px;
+    
+    
+  }
+ 
+  
+ #search:hover {
+   box-shadow: 3px 3px 13px 4px rgb(145, 145, 236);
+  }
+ 
+  h1{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    background: linear-gradient(to left, rgb(192, 134, 134), rgb(49, 80, 216));
+    -webkit-background-clip:text;
+    color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    margin-left: 100px;
+    margin-top: 50px;
+    position: absolute;
+    top:150px;
+    left:20px;
+    right:500px;
+    text-align: center;
+    
+
+  }
+  .menu{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    padding: 20px;
+    margin-left: 350px;
+    position: absolute;
+    top:80px;
+    left:300px;
+   
+     
+   
+  }
+  #itemH,#itemR,#itemD{
+    padding-right: 50px;
+    font-size: 21px;
+    background: linear-gradient(to top, rgb(199, 127, 127), rgb(49, 80, 216));
+            -webkit-background-clip:text;
+            color: transparent;
+            cursor: pointer;
+            
+  }
+  #itemR{
+    position: relative;
+    left: 60px;
+    
+    top: 0px;
+  }
+  #itemD{
+    position: relative;
+    left: 100px;
+    
+    top: 0px;
+  }
+ 
+
+  #itemI{
+    position: absolute;
+    left: 260px;
+    top: 5px;
+  }
+  #itemH:hover{
+    text-decoration: underline rgb(1, 10, 87) ;
+   
+    
+  }
+
+  #logo{
+ width: 200px;
+  
+  }
+
+  #medpic{
+   
+    margin-left: 775px;
+  }
+  .inscription {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+.inscription .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+  }
+  .insc-content {
+    display: none;
+    position: absolute;
+    left: 250px;
+    top: 48px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .insc-content a {
+  
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+
+  }
+  .insc-content a:hover{
+    background-color: rgb(170, 134, 204);
+  }
+  
+  
+  
+  /* Show the dropdown menu on hover */
+  .inscription:hover .insc-content {
+    display: block;
+  }
